@@ -32,30 +32,36 @@ Results from my machine.
 
 Creation of the trie:
 
- BenchmarkImportONSPD/badgerodon-8  	       1	10333619248 ns/op	6595485424 B/op	 8122542 allocs/op
- BenchmarkImportONSPD/claudiu-8     	       1	1133079749 ns/op	431894488 B/op	 6643031 allocs/op
- BenchmarkImportONSPD/derekparker-8 	       1	1958739912 ns/op	1205441648 B/op	14128892 allocs/op
- BenchmarkImportONSPD/dghubble-8    	       2	 772355485 ns/op	220278120 B/op	 3553773 allocs/op
- BenchmarkImportONSPD/timretout-8   	       4	 340029844 ns/op	148074024 B/op	 3004380 allocs/op
- BenchmarkImportONSPD/viant-8       	       1	1673385972 ns/op	406276248 B/op	 9251588 allocs/op
+```
+BenchmarkImportONSPD/badgerodon-8  	       1	10333619248 ns/op	6595485424 B/op	 8122542 allocs/op
+BenchmarkImportONSPD/claudiu-8     	       1	1133079749 ns/op	431894488 B/op	 6643031 allocs/op
+BenchmarkImportONSPD/derekparker-8 	       1	1958739912 ns/op	1205441648 B/op	14128892 allocs/op
+BenchmarkImportONSPD/dghubble-8    	       2	 772355485 ns/op	220278120 B/op	 3553773 allocs/op
+BenchmarkImportONSPD/timretout-8   	       4	 340029844 ns/op	148074024 B/op	 3004380 allocs/op
+BenchmarkImportONSPD/viant-8       	       1	1673385972 ns/op	406276248 B/op	 9251588 allocs/op
+```
 
 Sequential exists checks:
 
- BenchmarkONSPDSequentialExists/badgerodon-8         	 4435724	       248 ns/op	      24 B/op	       2 allocs/op
- BenchmarkONSPDSequentialExists/claudiu-8            	 8300227	       146 ns/op	       0 B/op	       0 allocs/op
- BenchmarkONSPDSequentialExists/derekparker-8        	 4512182	       284 ns/op	       0 B/op	       0 allocs/op
- BenchmarkONSPDSequentialExists/dghubble-8           	 6729548	       177 ns/op	       0 B/op	       0 allocs/op
- BenchmarkONSPDSequentialExists/timretout-8          	16112839	        74.6 ns/op	       0 B/op	       0 allocs/op
- BenchmarkONSPDSequentialExists/viant-8              	 3550863	       336 ns/op	       8 B/op	       1 allocs/op
+```
+BenchmarkONSPDSequentialExists/badgerodon-8         	 4435724	       248 ns/op	      24 B/op	       2 allocs/op
+BenchmarkONSPDSequentialExists/claudiu-8            	 8300227	       146 ns/op	       0 B/op	       0 allocs/op
+BenchmarkONSPDSequentialExists/derekparker-8        	 4512182	       284 ns/op	       0 B/op	       0 allocs/op
+BenchmarkONSPDSequentialExists/dghubble-8           	 6729548	       177 ns/op	       0 B/op	       0 allocs/op
+BenchmarkONSPDSequentialExists/timretout-8          	16112839	        74.6 ns/op	       0 B/op	       0 allocs/op
+BenchmarkONSPDSequentialExists/viant-8              	 3550863	       336 ns/op	       8 B/op	       1 allocs/op
+```
 
 Random exists checks:
 
- BenchmarkONSPDRandomExists/badgerodon-8             	 1480521	       769 ns/op	      24 B/op	       2 allocs/op
- BenchmarkONSPDRandomExists/claudiu-8                	  915116	      1272 ns/op	       0 B/op	       0 allocs/op
- BenchmarkONSPDRandomExists/derekparker-8            	  619204	      1768 ns/op	       0 B/op	       0 allocs/op
- BenchmarkONSPDRandomExists/dghubble-8               	  908576	      1215 ns/op	       0 B/op	       0 allocs/op
- BenchmarkONSPDRandomExists/timretout-8              	 1358100	       827 ns/op	       0 B/op	       0 allocs/op
- BenchmarkONSPDRandomExists/viant-8                  	  513060	      3127 ns/op	       8 B/op	       1 allocs/op
+```
+BenchmarkONSPDRandomExists/badgerodon-8             	 1480521	       769 ns/op	      24 B/op	       2 allocs/op
+BenchmarkONSPDRandomExists/claudiu-8                	  915116	      1272 ns/op	       0 B/op	       0 allocs/op
+BenchmarkONSPDRandomExists/derekparker-8            	  619204	      1768 ns/op	       0 B/op	       0 allocs/op
+BenchmarkONSPDRandomExists/dghubble-8               	  908576	      1215 ns/op	       0 B/op	       0 allocs/op
+BenchmarkONSPDRandomExists/timretout-8              	 1358100	       827 ns/op	       0 B/op	       0 allocs/op
+BenchmarkONSPDRandomExists/viant-8                  	  513060	      3127 ns/op	       8 B/op	       1 allocs/op
+```
 
 ## Analysis
 
