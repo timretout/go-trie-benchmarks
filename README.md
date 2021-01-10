@@ -89,6 +89,10 @@ Beware, this is a very specific use case, tested on one machine!
 
 An analysis of tries for general use would look at more varied data sets.
 
+Currently this benchmark only looks at "exists" performance, but it would be
+better to benchmark prefix search, i.e. the unique selling point of tries vs
+maps.
+
 ## Conclusions
 
 Knowing your data lets you write better data structures.
