@@ -66,8 +66,8 @@ BenchmarkONSPDRandomExists/viant-8                  	  513060	      3127 ns/op	 
 ## Analysis
 
 My implementation ("timretout") uses least memory (148MB, compared to 220MB for
-the nearest competitor), has fastest sequential access (~75ms) and
-second-fastest random access (827ms).  It cheats by using knowledge of the
+the nearest competitor), has fastest sequential access (~75ns) and
+second-fastest random access (827ns).  It cheats by using knowledge of the
 alphabet - this is probably the main difference between this and the other
 implementations.  It should be possible to generalize the implementation, and
 then I could come back and rebenchmark...
